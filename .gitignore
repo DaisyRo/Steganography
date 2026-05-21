@@ -1,20 +1,11 @@
-# Виртуальное окружение
 venv/
-env/
-*.pyc
 __pycache__/
-
-# Большие данные
+*.pyc
 data/
 results/stego_examples/
 results/*.bmp
-results/*.png
-!results/tables/
-!results/figures/psnr_ci.png
-
-# Системные файлы
 .DS_Store
-Thumbs.db
 *.zip
-*.tar.gz
-*.log
+extracted.bin
+stego.bmp
+test_plane.bmp
